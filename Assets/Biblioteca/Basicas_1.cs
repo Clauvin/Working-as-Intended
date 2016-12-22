@@ -22,6 +22,26 @@ namespace Basicas_1
         }
     }
 
+    /// <summary>
+    /// Classe Conversoes.
+    /// 
+    /// Responsável por conversões de valores para outros valores.
+    /// </summary>
+
+    public static class Conversoes
+    {
+
+        public static float DeGrauParaRadiano(float grau)
+        {
+            return grau * Mathf.PI / 180;
+        }
+
+        public static float DeRadianoParaGrau(float radiano)
+        {
+            return radiano * 180 / Mathf.PI;
+        }
+    }
+
     public enum Cenas
     {
         Main_GamePlay = 0
