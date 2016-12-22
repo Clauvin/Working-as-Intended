@@ -24,7 +24,7 @@ public class DisparadorCronometrado : MonoBehaviour {
 
         time_passed += Time.time - start_time;
         start_time = Time.time;
-        // Pegar código de passagem de tempo lá do Not Valentine
+
         if (time_passed >= segundos_entre_tiros)
         {
             time_passed = 0.0f;
