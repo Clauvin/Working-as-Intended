@@ -24,11 +24,9 @@ public class ControleAntagonistaLinhaReta : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        Debug.Log("1 - " + transform.position.x + " " + transform.position.y);
         trab = GetComponent<Transform>().position;
         posx = trab.x;
         posy = trab.y;
-        Debug.Log("2 - " + transform.position.x + " " + transform.position.y);
 
     }
 	

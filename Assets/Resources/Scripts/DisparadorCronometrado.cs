@@ -28,7 +28,8 @@ public class DisparadorCronometrado : MonoBehaviour {
         if (time_passed >= segundos_entre_tiros)
         {
             time_passed = 0.0f;
-            GetComponent<Canhao>().Fogo();
+            if (GetComponent<Canhao>() != null) GetComponent<Canhao>().Fogo();
+            if (GetComponent<CanhaoTeleguiado>() != null) GetComponent<CanhaoTeleguiado>().Fogo();
         }
 
     }
