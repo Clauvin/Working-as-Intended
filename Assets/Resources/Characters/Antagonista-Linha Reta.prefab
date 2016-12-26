@@ -92,6 +92,8 @@ MonoBehaviour:
   accmody: 0
   velx: 0
   vely: 0
+  distancia_a_ser_percorrida_para_desaparecer: 70
+  distancia_percorrida: 0
   trab: {x: 0, y: 0}
 --- !u!212 &212668429552313562
 SpriteRenderer:
