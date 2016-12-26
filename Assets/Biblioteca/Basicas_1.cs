@@ -12,11 +12,11 @@ namespace Basicas_1
     /// <summary>
     /// Classe Reset.
     /// 
-    /// Responsável por resets de cena, recarregando uma cena específica.
+    /// Responsável por carregar cenas, recarregando uma cena específica.
     /// </summary>
-    public static class Reset
+    public static class CarregaCena
     {
-        public static void Resetar(int cena)
+        public static void Carrega(int cena)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(cena);
         }
@@ -44,7 +44,8 @@ namespace Basicas_1
 
     public enum Cenas
     {
-        Main_GamePlay = 0
+        Main_Menu = 0,
+        Main_GamePlay = 1
     }
 }
 

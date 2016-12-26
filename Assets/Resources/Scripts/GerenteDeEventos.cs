@@ -15,7 +15,7 @@ public class GerenteDeEventos : MonoBehaviour {
 	
         if (Input.GetKeyDown(KeyCode.P))
         {
-            Reset.Resetar((int)Cenas.Main_GamePlay);
+            CarregaCena.Carrega((int)Cenas.Main_GamePlay);
         }
         	
 	}

@@ -41,22 +41,33 @@ public class ControleDoPersonagem : MonoBehaviour {
         if (a)
         {
             velx -= accmodx;
+            //Impede que, uma vez que o protagonista comece a se mover, volte a ficar parado
+            // por ação do jogador.
+            if (velx == 0.0f) velx -= accmodx;
         }
         if (w)
         {
             vely += accmody;
+            //Impede que, uma vez que o protagonista comece a se mover, volte a ficar parado
+            // por ação do jogador.
+            if (vely == 0.0f) vely += accmody;
         }
         if (s)
         {
             vely -= accmody;
+            //Impede que, uma vez que o protagonista comece a se mover, volte a ficar parado
+            // por ação do jogador.
+            if (vely == 0.0f) vely -= accmody;
         }
         if (d)
         {
             velx += accmodx;
+            //Impede que, uma vez que o protagonista comece a se mover, volte a ficar parado
+            // por ação do jogador.
+            if (velx == 0.0f) velx += accmodx;
         }
 
         //Altera valor de vel
-
         posx += velx;
         posy += vely;
 
@@ -74,6 +85,6 @@ public class ControleDoPersonagem : MonoBehaviour {
     //Quando houver colisão com algum objeto que dispare um Trigger...
     void OnTriggerEnter2D(Collider2D other)
     {
-        Reset.Resetar((int)Cenas.Main_GamePlay);
+        CarregaCena.Carrega((int)Cenas.Main_GamePlay);
     }
 }
