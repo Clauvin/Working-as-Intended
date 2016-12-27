@@ -85,6 +85,6 @@ public class ControleDoPersonagem : MonoBehaviour {
     //Quando houver colisão com algum objeto que dispare um Trigger...
     void OnTriggerEnter2D(Collider2D other)
     {
-        CarregaCena.Carrega((int)Cenas.Main_GamePlay);
+        if (other.tag == "Antagonista") { CarregaCena.Carrega((int)Cenas.Main_GamePlay); }
     }
 }

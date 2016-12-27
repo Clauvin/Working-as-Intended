@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61128127646235280}
   m_Layer: 0
   m_Name: Barreira das Verticais
-  m_TagString: Untagged
+  m_TagString: Antagonista
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

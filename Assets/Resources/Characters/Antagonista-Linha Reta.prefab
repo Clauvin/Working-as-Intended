@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114143499553183728}
   m_Layer: 0
   m_Name: Antagonista-Linha Reta
-  m_TagString: Untagged
+  m_TagString: Antagonista
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
