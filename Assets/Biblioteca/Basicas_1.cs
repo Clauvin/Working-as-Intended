@@ -45,7 +45,9 @@ namespace Basicas_1
     public enum Cenas
     {
         Main_Menu = 0,
-        Main_GamePlay = 1
+        Main_GamePlay = 1,
+        Victory_Screen = 2,
+        Defeat_Screen = 3
     }
 }
 
