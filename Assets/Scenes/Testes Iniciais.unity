@@ -183,7 +183,7 @@ Transform:
   m_Children:
   - {fileID: 1673158012}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &193480555
 Prefab:
@@ -474,7 +474,7 @@ Transform:
   m_Children:
   - {fileID: 628037417}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &473009326
 Prefab:
@@ -614,7 +614,7 @@ Transform:
   m_Children:
   - {fileID: 1914564955}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619450932
 GameObject:
@@ -948,68 +948,27 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: efc3a8c0ef5af2d45aebfba81e2c34ee, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &892261904
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 892261905}
-  - component: {fileID: 892261906}
-  - component: {fileID: 892261907}
-  m_Layer: 0
-  m_Name: Atirador
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &892261905
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 892261904}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &892261906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 892261904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4561490bcf99f3f42a97bc311c7295b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  segundos_entre_tiros: 1
---- !u!114 &892261907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 892261904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16068c9fd80914a41bb477d0b87425de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angulo_em_graus: 180
-  vel: 0.5
-  qual_municao: {fileID: 1767738705818766, guid: 94d3cdf3cd30e734e82a126e19d9592f,
-    type: 2}
 --- !u!4 &919299883 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4246429589724830, guid: 34c93525fb5874f4d84bd9f7363b6307,
     type: 2}
   m_PrefabInternal: {fileID: 655867154}
+--- !u!1 &974587088 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1417313188259352, guid: efc3a8c0ef5af2d45aebfba81e2c34ee,
+    type: 2}
+  m_PrefabInternal: {fileID: 826157346}
+--- !u!114 &974587093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 974587088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134d8389181a7204aa73f65b49e960a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1038890875
 Prefab:
   m_ObjectHideFlags: 0
@@ -1453,5 +1412,5 @@ Transform:
   m_Children:
   - {fileID: 619450933}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
