@@ -20,7 +20,6 @@ public class ControleDoPersonagem : MonoBehaviour {
 
     public Vector2 trab;
 
-
     // Use this for initialization
     void Start () {
         trab = GetComponent<Transform>().position;
