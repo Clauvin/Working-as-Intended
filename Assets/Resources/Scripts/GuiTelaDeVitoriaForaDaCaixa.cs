@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GuiTelaDeVitoria : GuiPadrao2
+public class GuiTelaDeVitoriaForaDaCaixa : GuiPadrao2
 {
 
-    GUIStyle estilotituloteladevitoria;
-    GUIStyle estilobotoesteladevitoria;
+    GUIStyle estilo_titulo_tela_de_vitoria_fora_da_caixa;
+    GUIStyle estilo_botoes_tela_de_vitoria_fora_da_caixa;
     private int posicaox;
     private int qualbotao = -1;
     private int resultado = -1;
@@ -18,13 +18,13 @@ public class GuiTelaDeVitoria : GuiPadrao2
     // Use this for initialization
     void Start()
     {
-        estilotituloteladevitoria = new GUIStyle();
-        estilotituloteladevitoria.alignment = TextAnchor.MiddleCenter;
-        estilotituloteladevitoria.font = Font.CreateDynamicFontFromOSFont("Verdana", 40);
+        estilo_titulo_tela_de_vitoria_fora_da_caixa = new GUIStyle();
+        estilo_titulo_tela_de_vitoria_fora_da_caixa.alignment = TextAnchor.MiddleCenter;
+        estilo_titulo_tela_de_vitoria_fora_da_caixa.font = Font.CreateDynamicFontFromOSFont("Verdana", 40);
 
-        estilobotoesteladevitoria = new GUIStyle("box");
-        estilobotoesteladevitoria.alignment = TextAnchor.MiddleCenter;
-        estilobotoesteladevitoria.font = Font.CreateDynamicFontFromOSFont("Verdana", 10);
+        estilo_botoes_tela_de_vitoria_fora_da_caixa = new GUIStyle("box");
+        estilo_botoes_tela_de_vitoria_fora_da_caixa.alignment = TextAnchor.MiddleCenter;
+        estilo_botoes_tela_de_vitoria_fora_da_caixa.font = Font.CreateDynamicFontFromOSFont("Verdana", 10);
     }
 
     // Update is called once per frame
@@ -40,7 +40,7 @@ public class GuiTelaDeVitoria : GuiPadrao2
         posicaox = 0;
         GUI.Box(new Rect(0, 0, Screen.width, Screen.height), string.Empty);
         GUI.Box(new Rect(Screen.width / 4, Screen.height / 6, Screen.width / 2, Screen.height / 2),
-            "Você venceu! :D", estilotituloteladevitoria);
+            "Você venceu por pensar fora da caixa! Continue assim :DDD", estilo_titulo_tela_de_vitoria_fora_da_caixa);
 
         resultado = GUI.Toolbar(new Rect(Screen.width / 12 * 3, Screen.height / 10 * 8,
                                         Screen.width / 12 * 6, Screen.height / 10), qualbotao,

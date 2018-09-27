@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 1847640928}
   - component: {fileID: 1847640927}
   m_Layer: 0
-  m_Name: "Menu de Vit\xF3ria"
+  m_Name: "Menu de Vit\xF3ria Fora da Caixa"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1847640926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b461f7d8fcab9740a833b51ab9d09e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 677bd33ab5c4faa4d8ce9fb116583a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1847640928
