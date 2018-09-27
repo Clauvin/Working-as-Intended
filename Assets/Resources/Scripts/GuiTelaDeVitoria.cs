@@ -40,7 +40,7 @@ public class GuiTelaDeVitoria : GuiPadrao2
         posicaox = 0;
         GUI.Box(new Rect(0, 0, Screen.width, Screen.height), string.Empty);
         GUI.Box(new Rect(Screen.width / 4, Screen.height / 6, Screen.width / 2, Screen.height / 2),
-            "Você venceu! :D", estilotituloteladevitoria);
+            "Você venceu por pensar fora da caixa! Continue assim :DDD", estilotituloteladevitoria);
 
         resultado = GUI.Toolbar(new Rect(Screen.width / 12 * 3, Screen.height / 10 * 8,
                                         Screen.width / 12 * 6, Screen.height / 10), qualbotao,
