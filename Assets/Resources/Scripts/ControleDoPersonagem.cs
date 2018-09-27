@@ -20,6 +20,8 @@ public class ControleDoPersonagem : MonoBehaviour {
 
     public Vector2 trab;
 
+    public int contador_de_acertos_recebidos = 0;
+
     // Use this for initialization
     void Start () {
         trab = GetComponent<Transform>().position;
@@ -84,6 +86,8 @@ public class ControleDoPersonagem : MonoBehaviour {
     //Quando houver colisão com algum objeto que dispare um Trigger...
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Antagonista") { CarregaCena.Carrega((int)Cenas.Defeat_Screen); }
+        if (other.tag == "Antagonista") {
+            contador_de_acertos_recebidos++;   
+        }
     }
 }
