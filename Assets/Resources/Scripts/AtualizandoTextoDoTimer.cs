@@ -16,6 +16,5 @@ public class AtualizandoTextoDoTimer : MonoBehaviour {
 	void Update () {
         tempo = (GetComponent<Timer>().tempo - 65).ToString();
         GetComponent<Text>().text = tempo;
-        
     }
 }
