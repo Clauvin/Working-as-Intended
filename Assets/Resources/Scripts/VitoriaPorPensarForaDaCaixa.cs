@@ -5,9 +5,9 @@ using Basicas_1;
 
 public class VitoriaPorPensarForaDaCaixa : MonoBehaviour {
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.tag == "Player") CarregaCena.Carrega((int)Cenas.Victory_For_Lateral_Thinking);
+        CarregaCena.Carrega((int)Cenas.Victory_For_Lateral_Thinking);
     }
 
 }
