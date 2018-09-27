@@ -113,6 +113,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &51782941
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 31.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573761961700688, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_Name
+      value: "Transportador Para Vit\xF3ria Fora da Caixa (2)"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &79778759 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4762450996051250, guid: 08dff121515da8e4ab626388ca6c15fd,
@@ -543,6 +589,10 @@ Prefab:
       propertyPath: m_Name
       value: Barreira da Vertical Inferior
       objectReference: {fileID: 0}
+    - target: {fileID: 4246429589724830, guid: 34c93525fb5874f4d84bd9f7363b6307, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 11.448168
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 34c93525fb5874f4d84bd9f7363b6307, type: 2}
   m_IsPrefabParent: 0
@@ -640,6 +690,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &571542363
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -22.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &619450932
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +855,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4246429589724830, guid: 34c93525fb5874f4d84bd9f7363b6307, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 4246429589724830, guid: 34c93525fb5874f4d84bd9f7363b6307, type: 2}
       propertyPath: m_LocalPosition.y
@@ -796,6 +888,10 @@ Prefab:
     - target: {fileID: 1320832428876854, guid: 34c93525fb5874f4d84bd9f7363b6307, type: 2}
       propertyPath: m_Name
       value: Barreira da Vertical Superior
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246429589724830, guid: 34c93525fb5874f4d84bd9f7363b6307, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 11.343889
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 34c93525fb5874f4d84bd9f7363b6307, type: 2}
@@ -972,6 +1068,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: efc3a8c0ef5af2d45aebfba81e2c34ee, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &855205688
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 49.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573761961700688, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_Name
+      value: "Transportador Para Vit\xF3ria Fora da Caixa (1)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 13.999631
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 7.148608
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &919299883 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4246429589724830, guid: 34c93525fb5874f4d84bd9f7363b6307,
@@ -1002,7 +1152,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4626962456643990, guid: d4e7dedf7ed81fd409729315976ff1d5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 26.5
+      value: 28.92
       objectReference: {fileID: 0}
     - target: {fileID: 4626962456643990, guid: d4e7dedf7ed81fd409729315976ff1d5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1145,7 +1295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 32.4, y: -42.7}
+  m_AnchoredPosition: {x: 16.5, y: -53.8}
   m_SizeDelta: {x: 516, y: 319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1408600668 stripped
@@ -1162,7 +1312,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4626962456643990, guid: d4e7dedf7ed81fd409729315976ff1d5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -26.5
+      value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 4626962456643990, guid: d4e7dedf7ed81fd409729315976ff1d5, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1244,6 +1394,60 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08dff121515da8e4ab626388ca6c15fd, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1595849452
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -49.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1573761961700688, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_Name
+      value: "Transportador Para Vit\xF3ria Fora da Caixa (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 13.999631
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543747586177056, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 7.148608
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bb3135cabec2f694a88ff98d3f1d9196, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1673158011
 GameObject:

@@ -7,9 +7,17 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu Inicial.unity
+    guid: 3fc84575da9cdec4da5013304edec2aa
   - enabled: 1
     path: Assets/Scenes/Testes Iniciais.unity
+    guid: 9a3ed401fa29bd946947d46407ad5d23
   - enabled: 1
     path: "Assets/Scenes/Tela de Vit\xF3ria.unity"
+    guid: a6df88dc88e32e646b0e484481b983cf
   - enabled: 1
     path: Assets/Scenes/Tela de Derrota.unity
+    guid: 7c63875131a23c240b5fc03d2b52e4a4
+  - enabled: 1
+    path: "Assets/Scenes/Tela de Vit\xF3ria Fora da Caixa.unity"
+    guid: a02b65025a24a834ab1f631c1f042aab
+  m_configObjects: {}
