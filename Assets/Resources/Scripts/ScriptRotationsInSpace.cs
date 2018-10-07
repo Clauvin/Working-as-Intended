@@ -11,7 +11,7 @@ public class ScriptRotationsInSpace : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Rotation(1f);
+
 	}
 
     public void Rotation(float change_in_angle)

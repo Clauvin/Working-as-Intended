@@ -14,7 +14,7 @@ public class ScriptTranslationsInSpace : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Translation(-1f, 0, 0);
+
 	}
 
     public void Translation(float change_in_x, float change_in_y, float change_in_z)

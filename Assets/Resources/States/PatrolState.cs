@@ -21,7 +21,8 @@ public class PatrolState : MonoBehaviour, IState {
     /// </summary>
     public void BeginEnter() {
 
-        translations_in_space = transform.GetComponentInParent<ScriptTranslationsInSpace>();
+        translations_in_space = GameObject.FindGameObjectWithTag("Atirador Móvel").transform.
+            GetComponent<ScriptTranslationsInSpace>();
         float x = translations_in_space.transform.position.x;
 
         if (x < (translations_in_space.left_x_limit + translations_in_space.right_x_limit) / 2)
@@ -29,7 +30,8 @@ public class PatrolState : MonoBehaviour, IState {
             qual_direcao = Direcoes.Direita;
         } else { qual_direcao = Direcoes.Esquerda; }
 
-        protagonist_senser = transform.GetComponentInParent<ScriptSensesProtagonist>();
+        protagonist_senser = GameObject.FindGameObjectWithTag("Atirador Móvel").transform.
+            GetComponentInChildren<ScriptSensesProtagonist>();
     }
 
     /// <summary>
@@ -60,9 +62,12 @@ public class PatrolState : MonoBehaviour, IState {
             {
                 qual_direcao = Direcoes.Esquerda;
             }
-            if (protagonist_senser.senses_protagonist) //Adicionar detecção de protagonista aqui
+            if (protagonist_senser.senses_protagonist)
             {
-                //começar transição para AimingState
+                var nextState = new AimingState();
+                var transition = new ScriptPatrolAimingTransition();
+                var eventArgs = new StateBeginExitEventArgs(nextState, transition);
+                OnBeginExit(this, eventArgs);
             }
             yield return null;
         }
@@ -73,7 +78,7 @@ public class PatrolState : MonoBehaviour, IState {
     /// Dispatched when the state is ready to begin transitioning to the next state. This implies
     /// that the transition process will immediately begin the exiting phase.
     /// </summary>
-    event EventHandler<StateBeginExitEventArgs> OnBeginExit;
+    public event EventHandler<StateBeginExitEventArgs> OnBeginExit;
 
     /// <summary>
     /// Notify the state that the transition process has finished exiting phase.

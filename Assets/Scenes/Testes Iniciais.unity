@@ -617,7 +617,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vel: 0.2
   nivel_de_previsao: 15
-  qual_municao: {fileID: 0}
+  qual_municao: {fileID: 1767738705818766, guid: 94d3cdf3cd30e734e82a126e19d9592f,
+    type: 2}
 --- !u!1001 &473009326
 Prefab:
   m_ObjectHideFlags: 0
@@ -1200,7 +1201,7 @@ GameObject:
   - component: {fileID: 692539769}
   m_Layer: 0
   m_Name: "Atirador M\xF3vel"
-  m_TagString: Untagged
+  m_TagString: "Atirador M\xF3vel"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
