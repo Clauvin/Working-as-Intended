@@ -6,16 +6,17 @@ public class ScriptTranslationsInSpace : MonoBehaviour {
 
     public float left_x_limit = -28.0f;
     public float right_x_limit = 28.0f;
+    public float x;
 
 	// Use this for initialization
 	void Start () {
-		
+        x = transform.position.x;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-	}
+        x = transform.position.x;
+    }
 
     public void Translation(float change_in_x, float change_in_y, float change_in_z)
     {
