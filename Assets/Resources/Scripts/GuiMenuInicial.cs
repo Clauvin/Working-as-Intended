@@ -13,7 +13,7 @@ public class GuiMenuInicial : GuiPadrao2 {
     private int posicaox;
     private int qualbotao = -1;
     private int resultado = -1;
-    private string[] toolbarStrings = { "Iniciar Jogo", "Créditos", "Sair" };
+    private string[] toolbarStrings = { "Iniciar Jogo - Versão FSM", "Créditos", "Sair" };
 
     private bool creditos = false;
 
@@ -75,7 +75,7 @@ public class GuiMenuInicial : GuiPadrao2 {
 
             GUI.Box(new Rect(0, 0, Screen.width * 0.2f, Screen.height * 0.3f), "Créditos\n\n" +
                 "Cláuvin Erlan José\n da Costa Curty de Almeida\n" +
-                "(clauvin_almeida@hotmail.com)");
+                "(almeidaclauvin@gmail.com)");
 
             if (GUI.Button(new Rect(Screen.width * 0.05f, Screen.height * 0.25f, Screen.width * 0.1f, Screen.height * 0.05f),
                 "Fechar"))
