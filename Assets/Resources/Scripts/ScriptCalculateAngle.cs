@@ -8,9 +8,9 @@ public class ScriptCalculateAngle : MonoBehaviour {
     GameObject atirador;
     GameObject protagonista;
 
-    Vector2 atirador_position;
-    Vector2 protagonista_position;
-    Vector2 third_point_position;
+    public Vector2 atirador_position;
+    public Vector2 protagonista_position;
+    public Vector2 third_point_position;
 
     public float angle;
 
