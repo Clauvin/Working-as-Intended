@@ -17,6 +17,8 @@ public class CanhaoTeleguiado : MonoBehaviour {
     private float vel_x = 0.0f;
     private float vel_y = 0.0f;
 
+    public bool atirar = false;
+
     // Use this for initialization
     void Start () {
 		
@@ -24,7 +26,7 @@ public class CanhaoTeleguiado : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        Atirar();
 	}
 
     public void Fogo()
@@ -49,6 +51,15 @@ public class CanhaoTeleguiado : MonoBehaviour {
         float hip = Mathf.Sqrt(cat_x * cat_x + cat_y * cat_y);
         vel_x = vel * (cat_x / hip);
         vel_y = vel * (cat_y / hip);
-
     }
+
+    private void Atirar()
+    {
+        if (atirar)
+        {
+            Fogo();
+            atirar = false;
+        }
+    }
+
 }
