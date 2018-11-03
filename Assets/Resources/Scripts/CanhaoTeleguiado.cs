@@ -18,6 +18,8 @@ public class CanhaoTeleguiado : MonoBehaviour {
     private float vel_y = 0.0f;
 
     public bool atirar = false;
+    public int preparando_para_atirar = 0;
+    public int limiar_para_atirar = 5;
 
     // Use this for initialization
     void Start () {
@@ -26,6 +28,7 @@ public class CanhaoTeleguiado : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        PreparandoParaAtirar();
         Atirar();
 	}
 
@@ -53,6 +56,15 @@ public class CanhaoTeleguiado : MonoBehaviour {
         vel_y = vel * (cat_y / hip);
     }
 
+    private void PreparandoParaAtirar()
+    {
+        if (preparando_para_atirar >= limiar_para_atirar)
+        {
+            atirar = true;
+            preparando_para_atirar = 0;
+        }
+    }
+    
     private void Atirar()
     {
         if (atirar)
