@@ -634,7 +634,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 692539767}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -735,7 +735,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 692539767}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1272,6 +1272,8 @@ RectTransform:
   - {fileID: 566368855}
   - {fileID: 832708112}
   - {fileID: 510809071}
+  - {fileID: 768848596}
+  - {fileID: 920298001}
   - {fileID: 467916777}
   - {fileID: 492556604}
   m_Father: {fileID: 177546430}
@@ -1361,10 +1363,10 @@ MonoBehaviour:
     - BehaviourMachine.Sequence
     - BehaviourMachine.FloatSet
     - BehaviourMachine.Parallel
-    - BehaviourMachine.Sequence
+    - BehaviourMachine.PrioritySequence
     - BehaviourMachine.IsFloatGreater
     - BehaviourMachine.FloatSet
-    - BehaviourMachine.Sequence
+    - BehaviourMachine.PrioritySequence
     - BehaviourMachine.IsFloatLess
     - BehaviourMachine.FloatSet
     - BehaviourMachine.Sequence
@@ -1409,7 +1411,7 @@ MonoBehaviour:
     - {fileID: 467916778}
     - {fileID: 510809070}
     - {fileID: 510809073}
-    m_IntValue: 010000000100000002000000010000001d0000003200000028000000255f0550000000001c0000000e0000000c00000032cd610b000000000d00000058d8ff0000000000110000008b92b77c01000000120000001400000032cd610b000000001500000058d8ff0001000000160000008b92b77c00000000130000001a00000058d8ff000a000000718a2a2500000000010000000b00000032cd610b00000000170000001b0000008b92b77c180000005f2fcd4300000000010000001900000032cd610b00000000270000002100000026000000000000001f000000255f0550ffffffff00000000290000002a0000007bf6f024000000000400000005000000070000007bf6f024080000000dc70a62060000000f0000007bf6f024090000000dc70a6223000000030000000dc70a6201000000000000001e00000024000000255f05500000000022000000255f055000000000100000002b000000255f055093f6200639000000000000000100000000000000250000002d000000000000002c000000255f055001000000000000002e0000002f000000300000003100000033000000340000003500000036000000370000003800000000000000
+    m_IntValue: 010000000100000002000000010000001d0000003200000028000000255f0550000000001c0000000e0000000c00000032cd610b000000000d00000058d8ff0000000000110000008b92b77c01000000120000001400000032cd610b000000001500000058d8ff0001000000160000008b92b77c00000000130000001a00000058d8ff000a000000718a2a2500000000010000000b00000032cd610b00000000170000001b0000008b92b77c180000005f2fcd4300000000010000001900000032cd610b00000000270000002100000026000000000000001f000000255f0550ffffffff00000000290000002a0000007bf6f024000000000400000020000000070000007bf6f024080000000dc70a62050000000f0000007bf6f024090000000dc70a6223000000030000000dc70a6201000000000000001e00000024000000255f05500000000022000000255f055000000000100000002b000000255f055093f6200639000000000000000100000000000000250000002d000000000000002c000000255f055001000000000000002e0000002f000000300000003100000033000000340000003500000036000000370000003800000000000000
     m_FloatValue:
     - 0
     - -1
@@ -1457,7 +1459,7 @@ MonoBehaviour:
     - FloatSet
     - x
     - "O Protagonista N\xE3o Est\xE1 Em Mira Neste Momento"
-    - Subtrair 1 do Contador de Mira
+    - "Subtrair 1 do Contador de Mira e Girar Canh\xE3o"
     - IsAnyBoolFalse
     - BehaviourMachine.FsmEvent
     - senses_protagonist
@@ -1936,6 +1938,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &768848595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 768848596}
+  m_Layer: 0
+  m_Name: "Sensor \xE0 Esquerda"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &768848596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768848595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 692539767}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &832708111
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,6 +2114,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4246429589724830, guid: 34c93525fb5874f4d84bd9f7363b6307,
     type: 2}
   m_PrefabInternal: {fileID: 655867154}
+--- !u!1 &920298000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 920298001}
+  m_Layer: 0
+  m_Name: "Sensor \xE0 Direita"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &920298001
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920298000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 692539767}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &982975990 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1361055928800556, guid: 08dff121515da8e4ab626388ca6c15fd,
