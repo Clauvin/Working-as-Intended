@@ -11,7 +11,8 @@ public class GuiTelaDeVitoriaForaDaCaixa : GuiPadrao2
     private int posicaox;
     private int qualbotao = -1;
     private int resultado = -1;
-    private string[] toolbarStrings = { "Voltar à\n" + "Tela Inicial", "Jogar de\n" + "Novo", "Sair" };
+    private string[] toolbarStrings = { "Voltar à\n" + "Tela Inicial", "Jogar de\n" + "Novo - FSM", 
+                                        "Jogar de\n" + "Novo - BT", "Sair" };
 
     private bool creditos = false;
 
@@ -58,6 +59,9 @@ public class GuiTelaDeVitoriaForaDaCaixa : GuiPadrao2
                 break;
             //Fecha o programa
             case 2:
+                CarregaCena.Carrega((int)Cenas.Main_GamePlay_BT);
+                break;
+            case 3:
                 Application.Quit();
                 break;
             default:
