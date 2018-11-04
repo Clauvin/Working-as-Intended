@@ -45,10 +45,11 @@ namespace Basicas_1
     public enum Cenas
     {
         Main_Menu = 0,
-        Main_GamePlay = 1,
-        Victory_Screen = 2,
-        Defeat_Screen = 3,
-        Victory_For_Lateral_Thinking = 4
+        Main_GamePlay_FSM = 1,
+        Main_GamePlay_BT = 2,
+        Victory_Screen = 3,
+        Defeat_Screen = 4,
+        Victory_For_Lateral_Thinking = 5
     }
 }
 

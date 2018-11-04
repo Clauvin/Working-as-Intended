@@ -13,7 +13,7 @@ public class GuiMenuInicial : GuiPadrao2 {
     private int posicaox;
     private int qualbotao = -1;
     private int resultado = -1;
-    private string[] toolbarStrings = { "Iniciar Jogo - Versão FSM", "Créditos", "Sair" };
+    private string[] toolbarStrings = { "Iniciar Jogo - Versão FSM", "Iniciar Jogo - Versão BT", "Créditos", "Sair" };
 
     private bool creditos = false;
 
@@ -51,14 +51,17 @@ public class GuiMenuInicial : GuiPadrao2 {
         {
             //Vai para o pre-loading do FIT
             case 0:
-                CarregaCena.Carrega((int)Cenas.Main_GamePlay);
+                CarregaCena.Carrega((int)Cenas.Main_GamePlay_FSM);
                 break;
             //Abre créditos
             case 1:
-                creditos = true;
+                CarregaCena.Carrega((int)Cenas.Main_GamePlay_BT);
                 break;
             //Fecha o programa
             case 2:
+                creditos = true;
+                break;
+            case 3:
                 Application.Quit();
                 break;
             default:

@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu Inicial.unity
     guid: 3fc84575da9cdec4da5013304edec2aa
   - enabled: 1
-    path: Assets/Scenes/Testes Iniciais.unity
-    guid: 9a3ed401fa29bd946947d46407ad5d23
+    path: Assets/Scenes/Teste Inicial - FSM.unity
+    guid: 4cbeec190e2c81b44a7059fad09488c5
+  - enabled: 1
+    path: Assets/Scenes/Teste Inicial - BT.unity
+    guid: 43e1867112d9fce4ba6479b5c6647e5b
   - enabled: 1
     path: "Assets/Scenes/Tela de Vit\xF3ria.unity"
     guid: a6df88dc88e32e646b0e484481b983cf

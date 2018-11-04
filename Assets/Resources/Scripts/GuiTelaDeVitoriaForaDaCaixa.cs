@@ -54,7 +54,7 @@ public class GuiTelaDeVitoriaForaDaCaixa : GuiPadrao2
                 break;
             //Abre créditos
             case 1:
-                CarregaCena.Carrega((int)Cenas.Main_GamePlay);
+                CarregaCena.Carrega((int)Cenas.Main_GamePlay_FSM);
                 break;
             //Fecha o programa
             case 2:
